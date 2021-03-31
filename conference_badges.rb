@@ -37,6 +37,10 @@ end
 #printer takes the results of #batch_badge_creator and #assign_rooms and outputs individually each element within the arrays
 
 def printer(attendees)
+<<<<<<< HEAD
   batch_badge_creator(attendees).each {|badge| puts badge} 
   assign_rooms(attendees).each {|room| puts room}
+=======
+  
+>>>>>>> 358b31f0cb30d054b1d6f40653f66c5e9f3427e5
 end
